@@ -78,3 +78,5 @@ D:\AMES_Git\EFileServerWebAPI\EFileServerWebAPI\obj\Debug\EFileServerWebAPI.dll
 D:\AMES_Git\EFileServerWebAPI\EFileServerWebAPI\obj\Debug\EFileServerWebAPI.pdb
 D:\AMES_Git\EFileServerWebAPI\EFileServerWebAPI\bin\EntityFramework.SqlServer.dll
 D:\AMES_Git\EFileServerWebAPI\EFileServerWebAPI\bin\EntityFramework.SqlServer.xml
+D:\AMES_Git\EFileServerWebAPI\EFileServerWebAPI\bin\System.Web.Http.Tracing.dll
+D:\AMES_Git\EFileServerWebAPI\EFileServerWebAPI\bin\System.Web.Http.Tracing.xml

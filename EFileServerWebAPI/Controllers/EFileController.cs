@@ -21,11 +21,13 @@ namespace EFileServerWebAPI.Controllers
         I_EFileRepository resp = new EFileRepository();
 
         [HttpGet, ActionName("Test1")]
+        [ApiProfileAction]
         public string GetEFile() {
             return "Hello me!";
         }
 
         [HttpGet, ActionName("Test2")]
+        [ApiProfileAction]
         public EFileInfo GetEFileInfoByFileGuid(string fileGuid) {
             EFileInfo eF;
             if (String.IsNullOrEmpty(fileGuid)) {
@@ -52,6 +54,7 @@ namespace EFileServerWebAPI.Controllers
 
         //[HttpPost, ActionName("efile")]
         [HttpPost]
+        [ApiProfileAction]
         public EFileInfo PosteFile(WebApiParameters wParams) {
             EFileInfo eFileResult = null;
             var httpRequest = HttpContext.Current.Request;
